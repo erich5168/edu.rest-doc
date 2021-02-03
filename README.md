@@ -1,13 +1,13 @@
 # edu.rest-doc
 
-# Steps to recreate problem
+### Steps to recreate problem
 1. Run test in `HelloControllerTest` or `WeblayerTestDoc`. Both should pass.
 2. Check if snippets are generated.  You should see it under `build/generated-snippets`
 3. Go to terminal `gradle asciidoctor` or `gradle asciidoctor -t`
 4. **Problem!** snippets gone!
 
 
-# Gradle tasks
+### Gradle tasks
 
 `gradle asciidoctor --console=plain`  results...
 
@@ -35,8 +35,8 @@ BUILD SUCCESSFUL in 2s
 Apples-MBP:lab.restdocs-gradlebuild erichuang$ 
 ```
 
-
-
+### Stackoverflow
+https://stackoverflow.com/questions/65999796/spring-rest-doc-gradle-snippets-disappear-upon-build
 
 # Resources
 * https://docs.spring.io/spring-restdocs/docs/2.0.5.RELEASE/reference/html5/#getting-started-build-configuration
