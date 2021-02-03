@@ -1,0 +1,16 @@
+= Spring RestDoc setup Tutorial
+
+include::{snippets}/home/curl-request.adoc[]
+
+include::{snippets}/home/http-request.adoc[]
+
+include::{snippets}/home/http-response.adoc[]
+
+
+Whyyyyyyyyyyyyyyy
+
+
+== HelloController Test
+
+**Request**
+include::{snippets}/home-json/http-response.adoc[]
